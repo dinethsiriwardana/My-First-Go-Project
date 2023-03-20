@@ -1,0 +1,3 @@
+module MY-FIRST-GO-PROJECT
+
+go 1.20
