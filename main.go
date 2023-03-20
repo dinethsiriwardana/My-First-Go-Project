@@ -43,10 +43,10 @@ func main() {
 	http.HandleFunc("/form", formHandler)
 	http.HandleFunc("/hello", helloHandler) // Just print hello to the screen
 
-	fmt.Printf("Starting server at P 8000\n")
+	fmt.Printf("Starting server at P 8080\n")
 
 	// Create the server and this is the heart of the program
-	if err := http.ListenAndServe(":8000", nil); err != nil {
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		log.Fatal(err)
 	}
 
